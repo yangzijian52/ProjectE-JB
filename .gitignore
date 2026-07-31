@@ -1,0 +1,9 @@
+.idea/
+*.iml
+target/
+dist/
+dependency-reduced-pom.xml
+*.log
+*.db
+*.db-shm
+*.db-wal

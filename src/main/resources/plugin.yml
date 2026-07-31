@@ -1,0 +1,66 @@
+name: ProjectE-JB
+version: '1.0.0'
+main: com.yangzijian52.projectejb.ProjectEJBPlugin
+api-version: '26.2'
+authors: [yangzijian52]
+description: Paper 26.2 原版物品等价交换插件，支持 Java 箱子菜单与 Floodgate 基岩表单。
+website: https://github.com/yangzijian52/ProjectE-JB
+softdepend: [floodgate]
+
+commands:
+  projectejb:
+    description: ProjectE-JB 主命令
+    usage: /projectejb [menu|balance|sell|learn|buy|pay|language|help]
+    aliases: [pejb]
+
+permissions:
+  projectejb.use:
+    description: 使用 ProjectE-JB 基础功能
+    default: true
+    children:
+      projectejb.menu: true
+      projectejb.balance: true
+      projectejb.sell: true
+      projectejb.learn: true
+      projectejb.buy: true
+      projectejb.pay: true
+      projectejb.language: true
+  projectejb.menu:
+    default: true
+  projectejb.balance:
+    default: true
+  projectejb.sell:
+    default: true
+  projectejb.learn:
+    default: true
+  projectejb.buy:
+    default: true
+  projectejb.pay:
+    default: true
+  projectejb.language:
+    default: true
+  projectejb.admin:
+    description: ProjectE-JB 管理员权限
+    default: op
+    children:
+      projectejb.admin.reload: true
+      projectejb.admin.setemc: true
+      projectejb.admin.balance: true
+      projectejb.admin.give: true
+      projectejb.admin.take: true
+      projectejb.admin.reset: true
+      projectejb.admin.status: true
+  projectejb.admin.reload:
+    default: op
+  projectejb.admin.setemc:
+    default: op
+  projectejb.admin.balance:
+    default: op
+  projectejb.admin.give:
+    default: op
+  projectejb.admin.take:
+    default: op
+  projectejb.admin.reset:
+    default: op
+  projectejb.admin.status:
+    default: op

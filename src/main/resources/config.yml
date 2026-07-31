@@ -1,0 +1,43 @@
+# ProjectE-JB 1.0.0
+# 所有玩家操作都可通过 /projectejb 指令触发，适合绑定 QuickMenu。
+
+language:
+  default: zh_cn
+  fallback: en_us
+
+database:
+  file: data.db
+  busy-timeout-millis: 5000
+
+economy:
+  starting-emc: 0
+  maximum-balance: 9000000000000000000
+  transfer:
+    minimum: 1
+    fee-percent: 0.0
+
+learning:
+  # 默认采用经典等价交换体验：学习时消耗 1 个物品，并把其 EMC 存入账户。
+  consume-item: true
+  credit-emc: true
+
+buy:
+  # 单次命令购买上限；菜单中的预设数量仍受背包容量限制。
+  maximum-amount: 2304
+
+security:
+  # 1.0.0 只接受与全新原版 ItemStack 完全一致的物品。
+  # 附魔、改名、损坏、容器内容、PDC、自定义模型等都会被拒绝。
+  clean-vanilla-items-only: true
+  bulk-inventory-slots: 36
+
+menu:
+  buy-amounts: [1, 8, 16, 32, 64]
+  transfer-amounts: [100, 1000, 10000, 100000]
+  search-timeout-seconds: 30
+
+floodgate:
+  enabled: true
+
+logging:
+  transaction-history: true
