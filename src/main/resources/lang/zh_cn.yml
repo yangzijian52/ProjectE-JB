@@ -98,7 +98,7 @@ admin:
 
 help:
   lines:
-    - '<dark_purple>ProjectE-JB 1.0.0</dark_purple>'
+    - '<dark_purple>ProjectE-JB 1.0.1</dark_purple>'
     - '<yellow>/projectejb menu</yellow> <gray>- 打开等价交换菜单</gray>'
     - '<yellow>/projectejb balance</yellow> <gray>- 查看 EMC</gray>'
     - '<yellow>/projectejb sell hand|inventory</yellow> <gray>- 出售物品</gray>'

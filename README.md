@@ -1,12 +1,12 @@
 # ProjectE-JB
 
-ProjectE-JB 是为 **Paper 26.2** 从零编写的原版物品等价交换插件。Java 玩家使用箱子菜单，Geyser/Floodgate 基岩玩家自动获得表单界面；两端共享同一套 EMC 账户、学习、出售、购买和转账逻辑。
+ProjectE-JB 是为 **Paper 26.3** 从零编写的原版物品等价交换插件。Java 玩家使用箱子菜单，Geyser/Floodgate 基岩玩家自动获得表单界面；两端共享同一套 EMC 账户、学习、出售、购买和转账逻辑。
 
 插件不注册伪装物品，不附带资源包、数据包、自定义合成配方或实体转换桌。玩家使用原版客户端即可加入。
 
 ## 功能
 
-- 426 种 Paper 26.2 原版物品的可编辑 EMC 默认价格；
+- 426 种 Paper 26.3 原版物品的可编辑 EMC 默认价格；
 - 学习物品、出售主手或批量出售背包；
 - 按已学习列表购买，支持分页、搜索和多个数量档位；
 - 玩家间 EMC 转账；
@@ -19,7 +19,7 @@ ProjectE-JB 是为 **Paper 26.2** 从零编写的原版物品等价交换插件�
 
 ## 环境要求
 
-- Paper 26.2（使用 build 84 编译和测试）；
+- Paper 26.3（使用 build 41 编译和测试）；
 - Java 25；
 - 基岩表单可选依赖：Floodgate 2.2.5；
 - 如果 Geyser 运行在 Velocity，后端 Paper 仍需安装 Floodgate-Spigot。
@@ -113,12 +113,12 @@ items:
 .\mvnw.cmd clean package
 ```
 
-构建产物位于 `target/ProjectE-JB-1.0.0.jar`。IntelliJ IDEA Community Edition 可直接以 Maven 项目导入。
+构建产物位于 `target/ProjectE-JB-1.0.1.jar`。IntelliJ IDEA Community Edition 可直接以 Maven 项目导入。
 
 ## 测试状态
 
 - 8 项 JUnit 测试通过；
-- 在完整的 Paper 26.2 build 84 镜像中完成加载、Floodgate 检测、价格校验、管理员命令、重载、SQLite 写入及跨两次服务器重启持久化测试；
+- 已在从 Paper 26.3 build 41 镜像复制的隔离实例中完成加载、Floodgate 检测、管理员命令、重载、SQLite 写入及两次启动/停止持久化测试；GUI 交互仍需真人验收；
 - Java GUI 点击体验和真人基岩表单点击体验需要发布前人工确认。
 
 完整记录见 [`docs/TEST-REPORT.md`](docs/TEST-REPORT.md)。
@@ -135,6 +135,6 @@ Copyright © 2026 yangzijian52。项目使用 [MIT License](LICENSE)。
 
 ## English
 
-ProjectE-JB is a clean-room Paper 26.2 EMC exchange plugin for unmodified clients. Java players receive inventory menus, while Floodgate players receive Bedrock forms. It includes learning, selling, buying, player-to-player transfers, SQLite persistence, transaction rollback, Chinese/English messages, and no custom items or resource packs.
+ProjectE-JB is a clean-room Paper 26.3 EMC exchange plugin for unmodified clients. Java players receive inventory menus, while Floodgate players receive Bedrock forms. It includes learning, selling, buying, player-to-player transfers, SQLite persistence, transaction rollback, Chinese/English messages, and no custom items or resource packs.
 
 Build with `mvnw.cmd clean package`. See the Chinese sections above for the complete command, configuration, safety, and test documentation.

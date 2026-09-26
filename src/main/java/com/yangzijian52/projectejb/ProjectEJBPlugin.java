@@ -33,7 +33,7 @@ public final class ProjectEJBPlugin extends JavaPlugin {
         try {
             initializeServices();
             registerEntryPoints();
-            getLogger().info("ProjectE-JB 1.0.0 enabled for Paper " + Bukkit.getMinecraftVersion()
+            getLogger().info("ProjectE-JB " + getDescription().getVersion() + " enabled for Paper " + Bukkit.getMinecraftVersion()
                     + "; Floodgate=" + forms.status() + "; EMC values=" + emcValues.size());
         } catch (Throwable throwable) {
             getLogger().log(Level.SEVERE, "ProjectE-JB failed to enable safely.", throwable);

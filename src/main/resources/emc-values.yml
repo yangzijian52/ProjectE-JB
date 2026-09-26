@@ -1,4 +1,4 @@
-# ProjectE-JB Paper 26.2 默认 EMC 表
+# ProjectE-JB Paper 26.3 默认 EMC 表
 # 仅列出的干净原版物品可以交易。值为 0 表示禁用。
 # 管理员可使用 /projectejb setemc <material> <value> 持久修改本文件。
 values:

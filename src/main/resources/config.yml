@@ -1,4 +1,4 @@
-# ProjectE-JB 1.0.0
+# ProjectE-JB 1.0.1
 # 所有玩家操作都可通过 /projectejb 指令触发，适合绑定 QuickMenu。
 
 language:
@@ -26,7 +26,7 @@ buy:
   maximum-amount: 2304
 
 security:
-  # 1.0.0 只接受与全新原版 ItemStack 完全一致的物品。
+  # 当前版本只接受与全新原版 ItemStack 完全一致的物品。
   # 附魔、改名、损坏、容器内容、PDC、自定义模型等都会被拒绝。
   clean-vanilla-items-only: true
   bulk-inventory-slots: 36

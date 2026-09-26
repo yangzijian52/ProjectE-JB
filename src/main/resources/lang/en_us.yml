@@ -98,7 +98,7 @@ admin:
 
 help:
   lines:
-    - '<dark_purple>ProjectE-JB 1.0.0</dark_purple>'
+    - '<dark_purple>ProjectE-JB 1.0.1</dark_purple>'
     - '<yellow>/projectejb menu</yellow> <gray>- Open the exchange menu</gray>'
     - '<yellow>/projectejb balance</yellow> <gray>- View your EMC</gray>'
     - '<yellow>/projectejb sell hand|inventory</yellow> <gray>- Sell items</gray>'

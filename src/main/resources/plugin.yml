@@ -1,9 +1,9 @@
 name: ProjectE-JB
-version: '1.0.0'
+version: '1.0.1'
 main: com.yangzijian52.projectejb.ProjectEJBPlugin
-api-version: '26.2'
+api-version: '26.3'
 authors: [yangzijian52]
-description: Paper 26.2 原版物品等价交换插件，支持 Java 箱子菜单与 Floodgate 基岩表单。
+description: Paper 26.3 原版物品等价交换插件，支持 Java 箱子菜单与 Floodgate 基岩表单。
 website: https://github.com/yangzijian52/ProjectE-JB
 softdepend: [floodgate]
 

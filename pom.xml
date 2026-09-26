@@ -6,9 +6,9 @@
 
     <groupId>com.yangzijian52</groupId>
     <artifactId>projecte-jb</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>ProjectE-JB</name>
-    <description>Paper 26.2 EMC exchange plugin with Java inventory menus and Floodgate forms.</description>
+    <description>Paper 26.3 EMC exchange plugin with Java inventory menus and Floodgate forms.</description>
     <url>https://github.com/yangzijian52/ProjectE-JB</url>
 
     <licenses>
@@ -21,7 +21,7 @@
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <paper.version>26.2.build.84-stable</paper.version>
+        <paper.version>26.3.build.41-alpha</paper.version>
         <floodgate.version>2.2.5-SNAPSHOT</floodgate.version>
         <sqlite.version>3.50.3.0</sqlite.version>
         <junit.version>5.13.4</junit.version>
